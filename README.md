@@ -1,0 +1,1 @@
+Manito este es el proyecto de acciones el bosque, esta tanto el back como el frontm dentro de cada carpeta esta el read para que lo puedas ejecutar sin problemas
