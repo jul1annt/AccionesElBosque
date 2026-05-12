@@ -1,0 +1,19 @@
+spring.application.name=accioneselbosque
+
+# Base de datos
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_db
+spring.datasource.username=your_user
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.show-sql=false
+
+# Google OAuth
+app.google.client-id=YOUR_GOOGLE_CLIENT_ID
+app.google.client-secret=YOUR_GOOGLE_CLIENT_SECRET
+app.google.redirect-uri=http://localhost:3000/auth/google/callback
+app.google.token-url=https://oauth2.googleapis.com/token
+app.google.userinfo-url=https://www.googleapis.com/oauth2/v3/userinfo
+
+# JWT
+app.jwt.secret=YOUR_SECRET_KEY_MIN_256_BITS
+app.jwt.expiration-ms=86400000
