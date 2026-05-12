@@ -1,4 +1,4 @@
-package co.edu.unbosque.accioneselbosque.auth.config;
+package co.edu.unbosque.accioneselbosque.config;
 
 import java.util.List;
 import org.springframework.context.annotation.Bean;
